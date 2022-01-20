@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dio</title>
+	<title>site</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- responsavel --->
+	<link rel="stylesheet" type="text/css" href="css/responsavel.css">
+	<!-- bootstrap icons --->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h2 class="logotipo">netflix</h2>
+			<nav>
+				<a href="#">inicio</a>
+				<a href="#">series</a>
+				<a href="#">dilmes</a>
+				<a href="#">fotos</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="principal">
+			<div class="container ">
+				<h3 class="titulo ">cobra kai</h3>
+				<p class="descriçao">Trinta e quatro anos depois de Daniel Larusso (Ralph Macchio) e Johnny Lawrence (William Zabka) se enfrentarem, a rivalidade entre os dois ressurge quando Lawrence decide retomar sua vida por meio do infame dojo Cobra Kai. Esgotado e completamente falido, ele vê a oportunidade de treinar jovens socialmente inaptos - como seu vizinho Miguel (Xolo Maridueña) -, ajudando-os a se defender da hostilidade lá fora e transformando-os em verdadeiros campeões. Já Daniel, agora um revendedor de carros de sucesso, tenta superar seus próprios desafios sem a ajuda de seu mentor, o Sr. Miyagi. Ao saber que Lawrence reabriu o centro de artes marciais, Daniel resolve fazer o mesmo e inaugura sua própria escola, na esperança de arruinar os planos de seu adversário. Embora tenham amadurecido de maneiras diferentes, os dois homens ainda são confrontados com os demônios do passado e as frustrações do presente.Nao e <span>atençao nova temporada esta repleta de episodios bons </span></p>
+			</div>
+			<div class="botoes">
+				<button role="button" class="botao">
+					<i class="bi bi-play-fill"></i>
+					assitir agora
+				</button>
+				<button  role="button" class="botao">
+					<i class="bi bi-info-circle-fill"></i>
+					mais informaçoes
+				</button>	
+			</div>
+		</div>
+	</main>
+
+	<!--carossel do site--->
+	<div class="carrossel">
+		<div class="owl-carousel owl-theme">
+		   <div class="item">
+		   	<img class="box-filme"src="img/cobra1.jpg" alt="foto" srcset="">
+		   </div>
+		    <div class="item">
+		   	<img class="box-filme"src="img/vingadores.jpg" alt="foto" srcset="">
+		   </div>
+		   <div class="item">
+		   	<img class="box-filme"src="img/vingadores2.jpg" alt="foto" srcset="">
+		   </div>
+	    </div>
+	</div>
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script >
+ 	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+ </script>
+</body>
+</html>
